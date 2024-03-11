@@ -1,3 +1,92 @@
-.color_fondo{
-  background-color: aqua;
+body{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+.sidebarrr{
+  background-color: transparent;
+  padding-top: 30px;
+  width: 35%;
+  background: linear-gradient(359deg, #99e9ff, #ffec6e);
+}
+.game{
+  width: 100%;
+  height: 100vh;
+}
+.img-dado{
+  width: 75px;
+}
+.dados{
+  display: flex;
+  justify-content: space-evenly;
+  width: 93%;
+}
+main{
+  padding-top: 137px;
+  grid-gap: 130px;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  letter-spacing: 3px;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+h3{
+
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.offcanvas-backdrop{
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+.button-players{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.submit{
+  background: transparent;
+  border: none;
+}
+.btn-players {
+  border-radius: 49%;
+  width: 36px;
+  background: transparent;
+}
+.content-form{
+  display: flex;
+  margin: 48px 31px;
+}
+.form{
+  width: 100%;
+}
+.title{
+  font-size: xx-large;
+  margin-bottom: 36px;
+  font-size: 39px;
+}
+.offcanvas-header{
+  justify-content: center;
+}
+.offcanvas-backdrop{
+  width: 0 !important;
 }
